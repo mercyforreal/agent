@@ -1,0 +1,92 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav1 a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+    }
+    #nav1 {
+        
+    }
+
+#nav1 div#brand {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    
+}
+#nav1 ul{
+    float: right;
+    list-style-type: none;
+    width: 50%;
+    padding: 20px;
+}
+#nav1 li{
+    float: left;
+    margin: 0 2%;
+}
+ body{
+    background-color: rgb(32, 37,57);
+    padding: 20px;
+    
+ }
+ #nav1 #you{
+background-color: blue;
+padding: 3px;
+border: none;
+border-radius: 6px;
+margin-bottom: 30px;
+}
+#nav1 #you a:hover{
+    color: brown;
+}
+
+#nav1 a:hover{
+    color: aqua;
+}
+.all .allus{
+    width: 45%;
+    padding: 0 2%;
+    float: left;
+    height: 50px;
+}
+section .all{
+    margin:  30px 0;
+}
+   
+.allus p{
+margin: 100px;
+color:white;
+}
+    .allus h3,h1,h5{
+        margin: 20px;
+        color: white;
+        margin-left: 50px;
+        
+    }
+    img{
+        width: 100%;
+    }
+.allus img{
+    margin: 80px;
+    /* width: 100%; */
+    width: 50%;
+    margin-right: 50px;
+}
+@media (max-width :740px){
+.allusimg{
+    margin-right: 50px;
+    
+}
+#you{
+    margin-right: 50px;
+}
+    
+}
+
+
